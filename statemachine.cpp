@@ -145,7 +145,7 @@ int main()
     }
     catch (const std::exception& e)
     {
-        std::cerr << "Fehler: " << e.what() << std::endl;
+        std::cerr << "Fehler (Katastrophal): " << e.what() << std::endl;
     }
 
     return 0;
